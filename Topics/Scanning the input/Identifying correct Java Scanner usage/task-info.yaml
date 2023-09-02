@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "<pre><code class=\"language-java\">import java.util.Input;\npublic class\
+    \ Main { \n  public static void main(String[] args) {\n    Scanner myScanner =\
+    \ new Input.Scanner(System.in);\n    int myInt = myScanner.getInt();\n  }\n}</code></pre>"
+  - text: "<pre><code class=\"language-java\">import java.util.Scanner;\npublic class\
+    \ Main { \n  public static void main(String[] args) {\n    Scanner myScanner =\
+    \ new Input(System.in);\n    int myInt = myScanner.nextInt();\n  }\n}</code></pre>"
+  - text: "<pre><code class=\"language-java\">import java.util.Scanner; \npublic class\
+    \ Main {\n  public static void main(String[] args) {\n    Scanner myScanner =\
+    \ new Scanner(System.in);\n    int myInt = myScanner.nextInt();\n  }\n}</code></pre>"
+  - text: "<pre><code class=\"language-java\">import java.util.Scanner;\npublic class\
+    \ Main { \n  public static void main(String[] args) {\n    Input myScanner = new\
+    \ Scanner(System.in);\n    int myInt = myScanner.getInt();\n  }\n}</code></pre>"
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32204#comment
+status: Solved
+record: -1
+local_check: false
