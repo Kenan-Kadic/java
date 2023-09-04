@@ -1,10 +1,14 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
 options:
-  - text: 15 14 15
-  - text: 15 15 15
-  - text: 14 15 16
-  - text: 15 14 14
+  - text: '!='
+  - text: '&gt;&gt;&gt;'
+  - text: '&gt;'
+  - text: ==
+  - text: =
+  - text: '&lt;&gt;'
+  - text: '&lt;&lt;'
+  - text: '&lt;='
 files:
   - name: src/Task.java
     visible: true
@@ -17,12 +21,15 @@ files:
         }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/3775#comment
+feedback_link: https://hyperskill.org/learn/step/2053#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: "Mon, 04 Sep 2023 01:08:22 UTC"
+  time: "Mon, 04 Sep 2023 01:08:53 UTC"
 record: -1
 selected_options:
   - 0
+  - 2
+  - 3
+  - 7
 local_check: false

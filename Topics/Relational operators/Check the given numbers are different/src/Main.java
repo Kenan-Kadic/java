@@ -8,7 +8,6 @@ public class Main {
         int num2 = scanner.nextInt();
         int num3 = scanner.nextInt();
 
-        boolean result = ((num1 != num2) && (num2 != num3) && (num1 != num3));
-        System.out.println(result);
+        System.out.println((num1 != num2) && (num2 != num3) && (num1 != num3));
     }
 }
